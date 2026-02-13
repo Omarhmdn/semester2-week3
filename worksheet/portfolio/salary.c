@@ -10,9 +10,9 @@
  int main( void ) {
 
     // define and initialise variables for the problem data 
-    float Salary = 36250;
-    float National_Insurance_Rate = 0.08;
-    float Tax_Rate = 0.15;
+    float Salary = 30000;
+    float National_Insurance_Rate = 0.09;
+    float Tax_Rate = 0.25;
 
     // calculate the deductions and final take-home salary
     float National_Insurance_Contribution = National_Insurance_Rate * Salary;

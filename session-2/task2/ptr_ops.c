@@ -17,7 +17,7 @@ int main( void ) {
     printf("The address of the float variable is  %p\n",&testFloat);
 
     printf("The value of the pointer is  %p\n",testFloatPtr);
-    printf("The value that the pointer dereferences to is  %f\n",*testFloatPtr);
+    printf("The value that the pointer dereferences to is %f\n",*testFloatPtr);
 
     return 0;
 }
